@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_dongvat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="ĐỘNG VẬT"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="#ADAFB3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ACAEB3">
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/mouse"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/cat"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/bird"/>
+
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/snail"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/kangaroo"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/penguin"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/turtle"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:src="@drawable/crocodile"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/jellyfish"/>
+        <ImageView
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            android:src="@drawable/squirrel"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/tvv_imagequestion"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/question_bird" />
+
+        <Button
+            android:id="@+id/btnsound"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sound"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/tvv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/hieuung"
+            android:gravity="center"
+            android:text="Đây là con vật gì ?"
+            android:textColor="@color/Black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"/>
+
+        <LinearLayout
+            android:id="@+id/Ldongvat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:text="Con gấu"
+                    android:background="@drawable/hieuung"/>
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hieuung"
+                    android:text="Con chó"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="5dp"/>
+
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:text="Con chim"
+                    android:background="@drawable/hieuung" />
+
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:text="Con heo"
+                    android:background="@drawable/hieuung" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="5dp"/>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btndiem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="điểm"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:background="@drawable/hieuung"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

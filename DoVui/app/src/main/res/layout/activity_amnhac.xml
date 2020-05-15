@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/music">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#6098EB"
+        android:gravity="center"
+        android:text="CHỦ ĐỀ ÂM NHẠC"
+        android:textColor="#0C0C0C"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/hieuung"
+        android:gravity="center"
+        android:id="@+id/txcauhoi"
+        android:text="Hãy điền từ còn thiếu  vào đoạn sau: Con...be bé, nó đậu cành tre"
+        android:textColor="#F000"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:id="@+id/LAmnhac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="Cò"
+                android:background="@drawable/hieuung"/>
+            <TextView
+                android:layout_width="21dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="Heo"
+                android:background="@drawable/hieuung" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="Chuột"
+                android:background="@drawable/hieuung" />
+
+            <TextView
+                android:layout_width="21dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="Trâu"
+                android:background="@drawable/hieuung" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+        <Button
+            android:id="@+id/btndiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Điểm của bé:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="@drawable/hieuung"/>
+    </LinearLayout>
+</LinearLayout>

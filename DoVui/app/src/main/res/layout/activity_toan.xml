@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#4CAF50">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:gravity="center"
+            android:text="CHỦ ĐỀ TOÁN HỌC"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/brmath10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtcauhoitoan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/hieuung"
+            android:gravity="center"
+            android:textColor="#F000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/dapana"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-100dp"
+                android:background="@drawable/vien"
+                android:text="A. 11 SỐ" />
+
+            <RadioButton
+                android:id="@+id/dapanb"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/vien"
+                android:text="B. 9 SỐ" />
+
+            <RadioButton
+                android:id="@+id/dapanc"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-100dp"
+                android:layout_marginTop="42dp"
+                android:background="@drawable/vien"
+                android:text="B. 8 SỐ" />
+
+            <RadioButton
+                android:id="@+id/dapand"
+                android:layout_width="146dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="-42dp"
+                android:background="@drawable/vien"
+                android:text="B. 10 SỐ" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#4CAF50">
+
+        <TextView
+
+            android:id="@+id/txtdiemhientai"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:gravity="center"
+            android:textColor="#0C0C0C"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

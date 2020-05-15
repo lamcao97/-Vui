@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgfood1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="MÓN ĂN"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:background="@color/lightorangedark"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/tvv_imagequestion"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/banhyen"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <TextView
+
+            android:id="@+id/tvv_question"
+            android:layout_width="380dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hieuung"
+            android:text="Đây là món ăn gì ?"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/Black"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:id="@+id/Ldongvat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/dapana"
+                    android:layout_width="146dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-100dp"
+                    android:background="@drawable/vien"
+                    android:textSize="17dp"
+
+                    android:text="A. Thịt nướng" />
+
+                <RadioButton
+                    android:id="@+id/dapanb"
+                    android:layout_width="146dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="-40dp"
+                    android:background="@drawable/vien"
+                    android:textSize="17dp"
+
+                    android:text="B. Bánh canh" />
+
+                <RadioButton
+                    android:id="@+id/dapanc"
+                    android:layout_width="146dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_marginTop="42dp"
+                    android:background="@drawable/vien"
+                    android:textSize="17dp"
+
+                    android:text="B. Bánh bò" />
+
+                <RadioButton
+                    android:id="@+id/dapand"
+                    android:layout_width="146dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="-42dp"
+                    android:textSize="17dp"
+
+                    android:background="@drawable/vien"
+                    android:text="B. Bánh thốt nốt" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btndiem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="điểm"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:background="@drawable/hieuung"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

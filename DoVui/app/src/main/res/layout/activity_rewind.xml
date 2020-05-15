@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/lightorange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="36,520"
+            android:id="@+id/tvtDiem"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:textSize="60sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/lightorangedark"
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chúc mừng bé đã hoàn thành trò chơi!"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/spaceullustration">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/actor"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_marginTop="25dp"
+            android:id="@+id/buttonsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonstyle"
+            android:text="Chọn lại chủ đề" />
+    </LinearLayout>
+    
+    
+</LinearLayout>
